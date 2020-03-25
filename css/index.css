@@ -1,0 +1,1015 @@
+/* 版心 */
+.center{
+    width: 1210px ;
+    margin: 0 auto ;
+    overflow: hidden ;
+}
+.all{
+    width: 100% ;
+    overflow: hidden ;
+    margin: 0 auto ;
+}
+/* 顶部 */
+.top-all{
+    width: 100% ;
+    overflow: hidden ;
+    /* background: yellowgreen ; */
+   height: 170px ;
+    margin: 0 auto ;
+    background:url(../img/曲线\ 3.png) center no-repeat ;
+}
+/* 顶部上方 */
+.top-top{
+    height: 110px ;
+    overflow: hidden ;
+}
+/* logo */
+.logo1,
+.logo2{
+    height: 110px ;
+    float: left ;
+}
+.logo1,.logo2 > span{
+    line-height: 110px ;
+    width:452px ;
+    font-size:34px ;
+    font-family:Source Han Sans CN ;
+    font-weight:400 ;
+    color:rgba(255,255,255,1) ;
+}
+.logo2{
+    display: none ;
+}
+/* 右侧搜索 */
+.search{
+    line-height: 110px ;
+    float: right ;
+}
+/* 搜索框旁字体 */
+.search > .search-font{
+    width:142px ;
+    height:15px ;
+    font-size:14px ;
+    font-family:Source Han Sans CN ;
+    font-weight:400 ;
+    color:rgba(255,255,255,1) ;
+    line-height:30px ;
+}
+.search .slash{
+    color: #6897E8 ;
+    font-size:14px ;
+    padding: 0 10px ;
+}
+.caidan{
+    display: none ;
+}
+/* 搜索框 */
+.search img{
+    padding: 0 0 0 50px ;
+}
+
+/* 顶部中线 */
+.top-center{
+    width: 1920px ;
+    margin: 0 auto ;
+    height:1px ;
+    background-color: #5A9AF6 ;
+}
+/* 顶部下 */
+.top-bottom{
+    width: 100% ;
+    height:60px ;
+    background:rgba(255,255,255,0) ;
+    box-shadow:0px 1px 0px 0px rgba(255,255,255,1) ;
+
+}
+.nav{
+    width:1029px ;
+    margin: 0 auto ;
+    font-weight:400 ;
+    overflow: hidden ;
+}
+.nav li{
+    font-size:18px ;
+    float: left ;   
+    line-height:60px ;
+
+}
+.nav li a{
+    color:rgba(255,255,255,1) ;
+} 
+.nav li b{
+    color: #6897E8 ;
+    padding: 0 15px ;
+}
+
+/* 媒体查询 */
+/* 在大小为750px及以下时 */
+@media all and (max-width: 750px) {
+    /* 总体和版心大小改变 */
+    .all,
+    .center,
+    .top-all,
+    .top-top{
+        width: 100% ;
+    }
+    /* 搜索栏 中线 nav消失 */
+    .search,
+    .top-center,
+    .top-bottom,
+    .logo1{
+        display: none ;
+    }
+    /* 顶部高度改变 背景图改变 */
+    .top-all{
+        height: 150px ;
+        margin: 0 auto ;
+        background:url(../img/清华大学新闻网.png) center no-repeat ;
+
+    }
+    /* 包含logo左浮  */
+    .top-top{
+        height: 100% ;
+    }
+    .logo2{
+        padding-left: 10px ;
+        display: block ;
+        float: left ;
+        line-height: 150px ;
+        width:525px ;
+        font-size:50px ;
+        font-weight:400 ;
+    }
+    /* 菜单出现 右浮动 给高给边距 */
+    .caidan{
+        display: block ;
+        float: right ;
+        line-height: 150px ;
+        padding-right: 20px ;
+    }
+  }
+
+  /* banner */
+  .banner{
+      width: 1920px;
+      margin: 0 auto;
+  }
+.img-pc {
+    width: 100%;
+  }
+  /* 所有圆形 */
+  .circle-all {
+    width: 120px;
+    height: 10px;
+    position: absolute;
+    left: 48%;
+  }
+  /* 单个圆形 */
+  .circle1 {
+    display: block;
+    height: 20px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+  }
+  /* 圆的具体属性 */
+  .circle1 a {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: all 0.5s;
+  }
+  /* 圆形hover */
+  .circle-all .circle1 a:hover {
+    background-color: white;
+}
+    /* pc端小图消失 */
+    .img-m{
+      display: none;
+  } 
+/* banner媒体查询 */
+  @media all and (max-width: 750px) {
+    /* pc端 小图出现 */
+    .circle-m,
+    .img-m{
+      display: block;
+  }   
+   /* pc端大图消失 */
+  .img-pc{
+    display: none;
+}
+/* 小图尺寸 */
+.img-m{
+    height: 400px;
+}
+  }
+
+/* 内容 */
+
+.content{
+    width: 100%;
+    /* height: 1540px; */
+    overflow: hidden;
+    background: url(../img/色阶\ 1.png) 0 -60px no-repeat;
+    /* position: absolute; */
+}
+
+/* 人事动态 */
+.content-people{
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.content-top{
+    text-align: center;
+}
+/* 媒体查询 、短 */
+.content-top2{
+    text-align: center;
+    margin: 0 0 20px 0;
+    display: none;
+}
+/* 下方图文 */
+.content-msg{
+    padding: 20px 0 40px 0;
+    overflow: hidden;
+}
+/* 第一块 */
+.content-msg1{
+    width: 23%;
+    height: 220px;
+    float: left;
+    margin: 0 25px 0 0 ;
+    position: relative;
+}
+/* 图 */
+.content-msg1 img{
+    width: 100%;
+    height: 180px;
+}
+/* 字 */
+.content-k {
+    width:250px;
+    height:80px;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 4px 0px 0px rgba(218,218,218,0.6);
+    position: absolute;
+    top: 120px;
+    left: 10px;
+}
+/* 字的格式 */
+.content-k span{
+    padding: 20px;
+    display: block;
+    width:200px;
+    height:37px;
+    font-size:15px;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:22px;
+}
+
+/* 橙色日期 */
+.content-time{
+    display:block;
+    width:60px;
+    height:28px;
+    background:rgba(244,147,11,1);
+    line-height: 28px;
+    text-align: center;
+    position: absolute;
+    top: -14px;
+    left: 10px;
+    box-shadow:0px 1px 1px 1px rgba(218,218,218,0.6);
+
+}
+/* 橙色日期字体格式 */
+.content-time b{
+    width:36px;
+    height:12px;
+    font-size:14px;
+    font-family:Source Han Sans CN;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:12px;
+}
+
+/* 右侧信息 */
+.content-msg2{
+    float: left;
+    width: 23%;
+}
+.content-msg2 li{
+    overflow: hidden;
+    height:45px;
+    margin: 5px 0;;
+}
+.content-msg2 p{
+    width:248px;
+    height:37px;
+    font-size:15px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+    line-height:22px;
+    float: right;
+}
+.content-msg2 img{
+    float: left;
+}
+
+.content-msg-mt,
+.people-mt-xx{
+    display: none;
+}
+/* 人事媒体查询 */
+
+@media all and (max-width: 750px) {
+    .content-top2,
+    .content-msg-mt,
+    .people-mt-xx{
+       display: block;
+    }
+    .content-msg,
+    .content-top{
+        display: none;
+    }
+    .content-msg-mt{
+        position: relative;
+        height: 530px;
+        margin-bottom:20px ;
+    }
+    .prople-mt img{
+        width: 94%;
+        padding: 0 30px;
+        height: 395px;
+        text-align: center;
+    }
+    /* 背景图取消 改为颜色 */
+    .content{
+        background-image: none;
+        background-color: #F6F6F6;
+    }
+    /* 下方字体框设置 */
+    .prople-mt-k{
+        width:640px;
+        height:160px;
+        background:rgba(255,255,255,1);
+        box-shadow:0px 4px 0px 0px rgba(218,218,218,0.6);
+        position: absolute;
+        left: 30px;
+        bottom: 10px;
+    }
+    .prople-mt-k p{
+        width:599px;
+        padding: 50px 25px 0 30px ;
+        height:71px;
+        font-size:28px;
+        font-family:Source Han Sans CN;
+        font-weight:400;
+        color:rgba(51,51,51,1);
+        line-height:44px;
+
+    }
+    /* 橙色时间框 */
+    .prople-mt-time{
+        width:120px;
+        height:56px;
+        background:rgba(244,147,11,1);
+        position: absolute;
+        left: 20px;
+        bottom: 130px;
+        text-align: center;
+        line-height: 56px;
+    }
+    /* 橙色时间框 字体设置*/
+    .prople-mt-time b{
+        width:59px;
+        height:19px;
+        font-size:24px;
+        font-family:STXihei;
+        font-weight:400;
+        color:rgba(255,255,255,1);
+        line-height:45px;
+    }
+
+    /* 图片下方信息 */
+    .people-mt-xx{
+        padding-left: 30px;
+        overflow: hidden;
+    }
+    .people-mt-xx li{
+        line-height:50px;
+        float: left;
+    }
+    .people-mt-xx li a{
+        font-size:26px;
+        font-family:STXihei;
+        font-weight:400;
+        color:rgba(51,51,51,1);
+        padding: 0 15px;
+    }
+    .people-mt-xx li span{
+        font-size:28px;
+        font-family:Helvetica;
+        font-weight:400;
+        color:rgba(153,153,153,1);
+        line-height:50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 下方信息 */
+/* 清除浮动 */
+.msg-bottom{
+    overflow: hidden;
+}
+/* 通知公告 */
+.msg-notice{
+    width: 25%;
+    float: left;
+}
+/* 图 */
+.msg-notice-img img{ 
+    width: 100%;
+    padding-bottom: 20px;
+}
+.msg-notice-img2 img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.msg-notice-img2{
+    display: none;
+
+}
+.msg-notice-bottom{
+    margin-bottom: 20px;
+    float: left;
+    overflow: hidden;
+}
+/* 左侧框 */
+
+.msg-notice-left{
+    width:48px;
+    height:50px;
+    background:rgba(35,140,224,0.5);
+    border:1px solid rgba(26, 128, 210, 1);
+    opacity:0.25;
+    text-align: center;
+    float: left;
+    margin-right: 10px;
+}
+/* 月份 */
+.msg-notice-left b{
+    width:34px;
+    height:11px;
+    font-size:10px;
+    font-family:Microsoft YaHei UI;
+    font-weight:300;
+    color:#666666;
+    line-height:24px;
+}
+/* 日期 */
+.msg-notice-left i{
+    width:24px;
+    height:17px;
+    font-size:22px;
+    font-family:Source Han Sans CN;
+    font-weight:500;
+    color:#666666;
+    line-height:24px;
+    text-align: center;
+}
+/* 右侧字 */
+.msg-notice-right{
+    width:220px;
+    height:36px;
+    float: left;
+    margin-right: 10px;
+}
+.msg-notice-right span{
+    font-size:14px;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+    line-height:22px;
+}
+.msg-notice-right strong{
+    width:515px;
+    height:72px;
+    font-size:24px;
+    font-family:STXihei;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:30px;
+    display: none;
+}
+.fgx{
+    display: none;
+}
+/* 通知公告 */
+@media all and (max-width: 750px){
+    /* 宽为100% */
+    .msg-notice,
+    .msg-notice-bottom{
+        width: 100%;
+        background-color: #F7F4F8;
+      
+    }
+    .msg-notice{
+        padding-bottom: 20px;
+    }
+    /* 原先告示图消失 */
+    .msg-notice-img,
+    .msg-notice-right span{
+        display: none;
+    }
+    /* 分割线出现 */
+    .fgx{
+        display: block;
+        width:750px;
+        height:1px;
+        background:rgba(230,230,230,1);
+        margin: 30px 0;
+    }
+    /* 改变行高 */
+    .msg-notice-bottom{
+        height: 120px;
+        margin-left: 37px;
+    }
+    /* 图片改变 */
+    .msg-notice-img2{
+        display: block;
+        margin: 0 25px;
+    }
+   /* 左侧方框改变 */
+   .msg-notice-left {
+    width:88px;
+    height:110px;
+    background:rgba(35,140,224,0.5);
+    border:2px solid rgba(26, 128, 210, 1);
+    opacity:0.25;
+   }
+   .msg-notice-left span b,
+    .msg-notice-left span i{
+        width:43px;
+        font-size:24px;
+        font-family:STXihei;
+        font-weight:400;
+        color:#666666;
+        line-height:36px;
+   }
+    /* .msg-notice-right{
+        width:579px;
+        height:72px;
+        font-size:28px;
+        font-family:STXihei;
+        font-weight:400;
+        color:rgba(51,51,51,1);
+        line-height:44px;
+    } */
+    .msg-notice-right strong{
+        display: block;
+        line-height:44px;
+    }
+}
+
+
+
+/* 招聘信息 */
+.msg-recruit,
+.msg-doc{
+    width: 36%;
+    float: left;
+    margin: 0 8px;
+}
+
+/* 下方字 */
+.msg-recruit-bottom{
+    line-height: 35px;
+    overflow: hidden;
+}
+/* 间距 */
+.msg-recruit-bottom li{
+    float: left;
+    margin: 0 0  0 10px;
+}
+/* 信息 */
+.msg-recruit-bottom li span{
+    font-size:15px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+    line-height:35px;
+}
+/* 日期 */
+.msg-recruit-bottom li b{
+    font-size:13px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(153,153,153,1);
+    line-height:35px;
+}
+
+
+/* 文档下载媒体查询 */
+
+.msg-doc-img,
+.msg-recruit-bottom strong,
+.msg-recruit-bottom i{
+    display: none;
+}
+
+
+
+
+
+/* 招聘信息、文档下载媒体查询 */
+@media all and (max-width: 750px){
+    .msg-zp,
+    msg-notice-img,
+    .msg-recruit-bottom span,
+    .msg-recruit-bottom b{
+        display: none;
+    }
+    .msg-doc{
+        width: 95%;
+        margin-top: 50px;
+    }
+    /* 添加上下左外边距 */
+    .msg-recruit-bottom{
+        margin:20px 0 20px 20px ;
+    }
+    /* 取消左右外边距 */
+    .msg-recruit-bottom li{
+        margin: 0 ;
+    }
+    /* 内部信息 */
+    .msg-recruit-bottom strong{
+        display: block;
+        width:550px;
+        /* height:px; */
+        font-size:26px;
+        font-family:STXihei;
+        font-weight:400;
+        color:rgba(51,51,51,1);
+        line-height:30px;
+        padding: 0 10px ;
+    }
+    /* 内部日期 */
+    .msg-recruit-bottom li i{
+        float: left;
+        font-size:26px;
+        font-family:Helvetica;
+        font-weight:400;
+        color:rgba(153,153,153,1);
+        display: block;
+    }
+    /* 图片的出现及宽度设置 */
+    .msg-doc-img{
+        display: block; 
+        margin: 0 15px 20px;
+    }
+    .msg-doc-img img{
+        width: 100%;
+        
+    }
+
+    }
+
+
+
+
+
+
+
+
+
+/* 人才引进 */
+.talents{
+    margin-top:30px;
+    overflow: hidden;
+}
+.talents div{
+    text-align: center;
+    width:224px;
+    height:140px;
+    line-height: 80px;
+    float: left;
+    margin: 0 8px;
+}
+/* 块颜色 */
+.talents-color1{
+    background:rgba(9,145,94,1);
+}
+.talents-color2{
+    background:#FFA127;
+}
+.talents-color3{
+    background:#447BBE;
+}
+.talents-color4{
+    background:#E46B34;
+}
+.talents-color5{
+    background:#AB97D4;
+}
+.talents p{
+height:17px;
+font-size:18px;
+font-family:Source Han Sans CN;
+font-weight:400;
+color:rgba(255,255,255,1);
+line-height:45px;
+}
+
+/* 人才引进媒体查询 */
+@media all and (max-width: 750px){
+    .talents-null{
+        display: none;
+    }
+    .talents div{
+        width: 30%;
+    }
+    .talents{
+        margin-left: 10px;
+        margin-bottom: 50px;
+    }
+}
+
+
+
+
+/* 政策法规 */
+.policy{
+    background: url(../img/矩形\ 8.png) center no-repeat;
+    width: 100%;
+    height: 700px;
+    margin-top: 50px;
+}
+/* 上方图定位及参数 */
+.policy-top{
+    text-align: center;
+}
+.policy-top img{
+    margin: 30px 0;
+    height: 25px;
+}
+/* 块 */
+.policy1{
+    width: 25%;
+    height: 500px;
+    float: left;
+    position: relative;
+}
+/* 下方框 */
+.policy-bottom{
+    width:225px;
+    height:300px;
+    background:rgba(255,255,255,1);
+    position: absolute;
+    left: 20px;
+    top: 170px;
+    padding: 10px;
+}
+
+/* 标题参数 */
+.policy-bottom-bt{
+    width:220px;
+    height:37px;
+    font-size:17px;
+    font-family:Source Han Sans CN;
+    font-weight:500;
+    color:rgba(78,143,238,1);
+    line-height:35px;
+}
+/* 标题下划线 */
+.policy-bottom-xhx{
+    width:40px;
+    height:3px;
+    background:rgba(221,221,221,1);
+}
+
+/* 正文 */
+.policy-bottom-zw{
+    width:225px;
+    height:168px;
+    font-size:14px;
+    font-family:Source Han Sans CN;
+    font-weight:300;
+    color:rgba(102,102,102,1);
+    line-height:22px;
+    margin-top: 10px;
+}
+
+/* 下链接 */
+.policy-bottom-lj{
+    width:244px;
+    height:36px;
+    background:rgba(240,240,240,1);
+    box-shadow:0px -1px 0px 0px rgba(218,218,218,1);
+    position: absolute;
+    left: 1px;
+    bottom: 1px;
+    line-height: 36px;
+}
+.policy-bottom-lj a{
+    width:160px;
+    height:15px;
+    font-size:14px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(78,143,238,1);
+    line-height:20px;
+    padding-left:5px ;
+}
+/* 橙色框的定位与数据 */
+.policy-bottom-csk{
+    width:90px;
+    height:26px;
+    background:rgba(244,147,11,1);
+    position: absolute;
+    top: -13px;
+    left: 13px;
+    font-size:13px;
+    font-family:Source Han Sans CN;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:30px;
+    text-align: center;
+}
+
+/* 查看更多 */
+.more{
+    width:260px;
+    height:50px;
+    line-height: 50px;
+ 
+    border:1px solid rgba(255, 255, 255, 1);
+    opacity:0.6;
+    border-radius:25px;
+    margin: 30px auto;
+}
+.more p{
+    text-align: center;
+ 
+    font-size:16px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:45px;
+}
+
+/* 媒体查询 */
+@media all and (max-width: 750px){
+    .policy2{
+        display: none;
+    }
+    .policy1{
+        width: 50%;
+    }
+    .center-policy{
+        padding-left: 30px;
+    }
+}
+
+
+
+/* 底部 */
+.bottom{
+    width:100%;
+    height:240px;
+    background:rgba(68,68,68,1);
+    margin: 0 auto;
+    overflow: hidden;
+}
+/* 标题 */
+.bottom-bq{
+    width: 42%;
+    height:240px;
+    float: left;
+}
+/* logo */
+.bottom-logo{
+    width:452px;
+    height:25px;
+    font-size:34px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(162,162,162,1);
+    line-height:22px;
+    margin:40px 0 20px 0;
+}
+
+/* 信息 */
+.bottom-xx{
+    width:480px;
+    height:68px;
+    font-size:14px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:27px;
+    padding-top: 20px;
+}
+/* 箭头信息 */
+.bottom-jt{
+    width: 25%;
+    float: left;
+}
+/* ul包裹 */
+.bottom-jt ul{
+    overflow: hidden;
+    margin-top:55px;
+}
+/* li属性 */
+.bottom-jt ul li{
+    width: 50%;
+    float: left;
+    font-size:14px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:26px;
+    margin-top: 5px;
+}
+/* 箭头和字间隔 */
+.bottom-jt ul li span{
+    margin-right: 10px;
+}
+/* 二维码 */
+.bottom-ewm{
+    float: left;
+    margin-top: 60px;
+}
+
+.wx{
+    float: left;
+    width: 20%;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.wx div{
+width:220px;
+height:40px;
+background:rgba(40,40,40,0);
+border:1px solid rgba(255, 255, 255, 1);
+opacity:0.5;
+border-radius:20px;
+line-height: 40px;
+text-align: center;
+}
+.wx div span{
+width:154px;
+height:13px;
+font-size:13px;
+font-family:Source Han Sans CN;
+font-weight:400;
+color:rgba(255,255,255,1);
+line-height:26px;
+opacity:0.8;
+}
+
+.bottom-mt{
+    display: none;
+}
+
+/* 底部媒体查询 */
+@media all and (max-width: 750px){
+    .bottom-bq,
+    .bottom-jt,
+    .bottom-ewm,
+    .wx{
+        display: none;
+    }
+    .bottom{
+        width: 100%;
+        height: 370px;
+    }
+    .bottom-mt{
+        text-align: center;
+        display: block;
+        width:100%;
+        height:244px;
+        font-size:24px;
+        font-family:STXihei;
+        font-weight:400;
+        color:rgba(255,255,255,1);
+        line-height:44px;
+        opacity:0.6;
+        margin-top: 60px;
+    }
+}
